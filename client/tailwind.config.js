@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",   // Asegura que Tailwind procese todos los archivos de React
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-orange': '#FF7212',  // Definir el color personalizado aquí
+      },
+    },
   },
   plugins: [],
 }
