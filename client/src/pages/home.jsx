@@ -1,0 +1,48 @@
+// src/pages/home.jsx
+import React from 'react';
+import logo from '../assets/logo.png'; // Ajusta las rutas si es necesario
+import fondo2 from '../assets/fondo2.png';
+
+function Home() {
+  return (
+    <div
+      className="font-sans bg-gray-100"
+      style={{
+        backgroundImage: `url(${fondo2})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '100vh',
+      }}
+    >
+      <header className="flex justify-center p-4 bg-transparent">
+        <img src={logo} alt="Logo" className="w-2 h-auto" />
+      </header>
+
+      <section className="flex justify-center mt-10">
+        <button className="px-6 py-3 bg-pink-200 text-white font-semibold rounded-full shadow-md hover:bg-blue-500 transition duration-300">
+          Iniciar sesión
+        </button>
+      </section>
+
+      <section className="flex flex-col md:flex-row justify-between items-center p-10 bg-white bg-opacity-50 mt-10 mx-5 md:mx-10 rounded-lg shadow-lg">
+        <div className="w-full md:w-1/2">
+          <h2 className="text-2xl md:text-3xl font-semibold text-green-700">
+            POR QUÉ COMER DE TEMPORADA?
+          </h2>
+          <p className="mt-4 text-lg text-gray-600">
+            Es importante favorecer el consumo de frutas y verduras locales y de temporada por su sabor, pero también para reducir nuestro impacto en el medio ambiente.
+          </p>
+        </div>
+        <div className="w-full md:w-1/2 mt-8 md:mt-0">
+          <img
+            src={require('../assets/react.svg')}  // Ajusta esta ruta según tu estructura
+            alt="vegetales"
+            className="w-full h-auto rounded-lg"
+          />
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Home; // No olvides exportar el componente
