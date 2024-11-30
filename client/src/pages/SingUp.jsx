@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Footer from '../components/Footer'; 
+// import Footer from '../components/Footer'; 
 import fondo2 from '../assets/fondo2.png';  
 
 function Signup() {
@@ -73,7 +73,7 @@ function Signup() {
         </form>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -83,7 +83,7 @@ const Login = () => {
         <button
           type="submit"
           className="p-2 rounded hover:bg-opacity-80"
-          style={{ backgroundColor: '#C1A881', color: 'white' }}>
+          style={{ backgroundColor: '#FF7212', color: 'white' }}>
           Iniciar sesión
         </button>
       </form>

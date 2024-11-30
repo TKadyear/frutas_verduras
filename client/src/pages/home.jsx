@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.png';
 import fondo2 from '../assets/fondo2.png';
-import Footer from '../components/Footer'; // Importa el Footer
+// import Footer from '../components/Footer'; // Importa el Footer
 
 function Home() {
   return (
@@ -35,14 +35,14 @@ function Home() {
         </div>
         <div className="w-full md:w-1/2 mt-8 md:mt-0">
           <img
-            src={require('/Users/magalylazarte/Desktop/factoria-f5/proyectofinal/client/src/assets/vegetales.png')}  // Ajusta esta ruta según tu estructura
+          src="/vegetales.png" // Ajusta esta ruta según tu estructura
             alt="vegetales"
             className="w-full h-auto rounded-lg"
           />
         </div>
       </section>
 
-      <Footer /> {/* Aquí agregas el Footer */}
+      {/* <Footer /> */}
     </div>
   );
 }

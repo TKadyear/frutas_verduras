@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import fondo2 from '../assets/fondo2.png';  // Ruta al fondo
 import logo from '../assets/logo.png';  // Ruta al logo
-import Footer from '../components/Footer';  // Componente Footer
+// import Footer from '../components/Footer';  // Componente Footer
 
 function Months() {
   return (
@@ -39,7 +39,7 @@ function Months() {
       </ul>
 
       {/* Footer */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
