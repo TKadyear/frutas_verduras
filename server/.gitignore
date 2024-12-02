@@ -1,2 +1,4 @@
+# Por lo general, yo suelo usar plantillas ya definidas como esta: https://github.com/github/gitignore/blob/main/Node.gitignore
 node_modules
 .env
+dist
