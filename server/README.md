@@ -27,6 +27,8 @@ Antes de nada, create un archivo `.env`, basándote en el ejemplo de `.env.templ
 Comandos:
 
 ```sh
+# Ejecuta el servidor en typescript
+npm run dev
 # Compila Typescript en javascript
 npm run build
 # Manten un "watcher" para que los cambios en  Typescript pasen a javascript 
